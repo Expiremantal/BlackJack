@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Blackjack</title>
+    <link rel="stylesheet" href="blackjack.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Blackjack Game!</h1>
+        <p>Are you ready to play?</p>
+        <button onclick="startGame()">Yes, let's play!</button>
+        <button onclick="declineGame()">No, not now.</button>
+    </div>
+
+    <script>
+        function startGame() {
+            window.location.href = 'BlackJack.html';
+        }
+
+        function declineGame() {
+            alert("Maybe next time!");
+        }
+    </script>
+</body>
+</html>
